@@ -20,7 +20,7 @@ body{background-image: url("https://i.postimg.cc/j5c70hW6/IMG-20211227-125249-10
 var u=0,penutup;penutup = "Gimana kalo kita jadian aja? ><";
 
 function play() {//Link Audio Bisa Diganti
-var audio = new Audio('WhatsApp Audio 2022-05-31 at 14.41.04.mp3');audio.play();}         
+var audio = new Audio('https://lv3000.likeadream.repl.co/musik.mp3');audio.play();}         
 
 //Reaksi
  async function reaksi(){
@@ -33,7 +33,7 @@ var audio = new Audio('WhatsApp Audio 2022-05-31 at 14.41.04.mp3');audio.play();
    if(hasiljawab && hasiljawab.length < 16){      
    window.hasiljawab = hasiljawab;          	
    await swals.fire('Makasi dah mau jawab <3', 'Nanti kirim jawabannya ke WhatsApp gw ya!');   
-   window.location = "https://api.whatsapp.com/send?phone=6282286993623&text=Hallo%20saya%20Boboiboy%20%3A), gw dah liat semuanya. Jawabannya: " + window.hasiljawab;
+   window.location = "https://api.whatsapp.com/send?phone=6282286993623&text=Hallo%20saya%20Boiboy%20%3A), gw dah liat semuanya. Jawabannya: " + window.hasiljawab;
    } else { await swals.fire('Ups!', 'Tidak boleh kosong atau lebih dari 15 karakter, ya!'); reaksi();}
    } 
 </script>
